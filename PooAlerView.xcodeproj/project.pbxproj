@@ -22,6 +22,7 @@
 		CCA45CF118EC400A00748294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA45CD018EC400A00748294 /* UIKit.framework */; };
 		CCA45CF918EC400A00748294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCA45CF718EC400A00748294 /* InfoPlist.strings */; };
 		CCA45CFB18EC400A00748294 /* PooAlerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA45CFA18EC400A00748294 /* PooAlerViewTests.m */; };
+		CCA45D0618EC403500748294 /* PooAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA45D0518EC403500748294 /* PooAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		CCA45CF618EC400A00748294 /* PooAlerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PooAlerViewTests-Info.plist"; sourceTree = "<group>"; };
 		CCA45CF818EC400A00748294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCA45CFA18EC400A00748294 /* PooAlerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PooAlerViewTests.m; sourceTree = "<group>"; };
+		CCA45D0418EC403500748294 /* PooAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooAlertView.h; sourceTree = "<group>"; };
+		CCA45D0518EC403500748294 /* PooAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				CCA45CE518EC400A00748294 /* PooViewController.m */,
 				CCA45CE718EC400A00748294 /* Images.xcassets */,
 				CCA45CD318EC400A00748294 /* Supporting Files */,
+				CCA45D0418EC403500748294 /* PooAlertView.h */,
+				CCA45D0518EC403500748294 /* PooAlertView.m */,
 			);
 			path = PooAlerView;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA45CD918EC400A00748294 /* main.m in Sources */,
+				CCA45D0618EC403500748294 /* PooAlertView.m in Sources */,
 				CCA45CDD18EC400A00748294 /* PooAppDelegate.m in Sources */,
 				CCA45CE618EC400A00748294 /* PooViewController.m in Sources */,
 			);
@@ -394,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PooAlerView/PooAlerView-Prefix.pch";
 				INFOPLIST_FILE = "PooAlerView/PooAlerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PooAlerView/PooAlerView-Prefix.pch";
 				INFOPLIST_FILE = "PooAlerView/PooAlerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
