@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA45CCD18EC400A00748294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA45CCC18EC400A00748294 /* Foundation.framework */; };
+		CCA45CCF18EC400A00748294 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA45CCE18EC400A00748294 /* CoreGraphics.framework */; };
+		CCA45CD118EC400A00748294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA45CD018EC400A00748294 /* UIKit.framework */; };
+		CCA45CD718EC400A00748294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCA45CD518EC400A00748294 /* InfoPlist.strings */; };
+		CCA45CD918EC400A00748294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA45CD818EC400A00748294 /* main.m */; };
+		CCA45CDD18EC400A00748294 /* PooAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA45CDC18EC400A00748294 /* PooAppDelegate.m */; };
+		CCA45CE018EC400A00748294 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA45CDE18EC400A00748294 /* Main_iPhone.storyboard */; };
+		CCA45CE318EC400A00748294 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA45CE118EC400A00748294 /* Main_iPad.storyboard */; };
+		CCA45CE618EC400A00748294 /* PooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA45CE518EC400A00748294 /* PooViewController.m */; };
+		CCA45CE818EC400A00748294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA45CE718EC400A00748294 /* Images.xcassets */; };
+		CCA45CEF18EC400A00748294 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA45CEE18EC400A00748294 /* XCTest.framework */; };
+		CCA45CF018EC400A00748294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA45CCC18EC400A00748294 /* Foundation.framework */; };
+		CCA45CF118EC400A00748294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA45CD018EC400A00748294 /* UIKit.framework */; };
+		CCA45CF918EC400A00748294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCA45CF718EC400A00748294 /* InfoPlist.strings */; };
+		CCA45CFB18EC400A00748294 /* PooAlerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA45CFA18EC400A00748294 /* PooAlerViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA45CF218EC400A00748294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA45CC118EC400A00748294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA45CC818EC400A00748294;
+			remoteInfo = PooAlerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA45CC918EC400A00748294 /* PooAlerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PooAlerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA45CCC18EC400A00748294 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCA45CCE18EC400A00748294 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCA45CD018EC400A00748294 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCA45CD418EC400A00748294 /* PooAlerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PooAlerView-Info.plist"; sourceTree = "<group>"; };
+		CCA45CD618EC400A00748294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCA45CD818EC400A00748294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA45CDA18EC400A00748294 /* PooAlerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PooAlerView-Prefix.pch"; sourceTree = "<group>"; };
+		CCA45CDB18EC400A00748294 /* PooAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PooAppDelegate.h; sourceTree = "<group>"; };
+		CCA45CDC18EC400A00748294 /* PooAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PooAppDelegate.m; sourceTree = "<group>"; };
+		CCA45CDF18EC400A00748294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCA45CE218EC400A00748294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CCA45CE418EC400A00748294 /* PooViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PooViewController.h; sourceTree = "<group>"; };
+		CCA45CE518EC400A00748294 /* PooViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PooViewController.m; sourceTree = "<group>"; };
+		CCA45CE718EC400A00748294 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCA45CED18EC400A00748294 /* PooAlerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PooAlerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA45CEE18EC400A00748294 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCA45CF618EC400A00748294 /* PooAlerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PooAlerViewTests-Info.plist"; sourceTree = "<group>"; };
+		CCA45CF818EC400A00748294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCA45CFA18EC400A00748294 /* PooAlerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PooAlerViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA45CC618EC400A00748294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA45CCF18EC400A00748294 /* CoreGraphics.framework in Frameworks */,
+				CCA45CD118EC400A00748294 /* UIKit.framework in Frameworks */,
+				CCA45CCD18EC400A00748294 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA45CEA18EC400A00748294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA45CEF18EC400A00748294 /* XCTest.framework in Frameworks */,
+				CCA45CF118EC400A00748294 /* UIKit.framework in Frameworks */,
+				CCA45CF018EC400A00748294 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA45CC018EC400A00748294 = {
+			isa = PBXGroup;
+			children = (
+				CCA45CD218EC400A00748294 /* PooAlerView */,
+				CCA45CF418EC400A00748294 /* PooAlerViewTests */,
+				CCA45CCB18EC400A00748294 /* Frameworks */,
+				CCA45CCA18EC400A00748294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA45CCA18EC400A00748294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA45CC918EC400A00748294 /* PooAlerView.app */,
+				CCA45CED18EC400A00748294 /* PooAlerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA45CCB18EC400A00748294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA45CCC18EC400A00748294 /* Foundation.framework */,
+				CCA45CCE18EC400A00748294 /* CoreGraphics.framework */,
+				CCA45CD018EC400A00748294 /* UIKit.framework */,
+				CCA45CEE18EC400A00748294 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA45CD218EC400A00748294 /* PooAlerView */ = {
+			isa = PBXGroup;
+			children = (
+				CCA45CDB18EC400A00748294 /* PooAppDelegate.h */,
+				CCA45CDC18EC400A00748294 /* PooAppDelegate.m */,
+				CCA45CDE18EC400A00748294 /* Main_iPhone.storyboard */,
+				CCA45CE118EC400A00748294 /* Main_iPad.storyboard */,
+				CCA45CE418EC400A00748294 /* PooViewController.h */,
+				CCA45CE518EC400A00748294 /* PooViewController.m */,
+				CCA45CE718EC400A00748294 /* Images.xcassets */,
+				CCA45CD318EC400A00748294 /* Supporting Files */,
+			);
+			path = PooAlerView;
+			sourceTree = "<group>";
+		};
+		CCA45CD318EC400A00748294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA45CD418EC400A00748294 /* PooAlerView-Info.plist */,
+				CCA45CD518EC400A00748294 /* InfoPlist.strings */,
+				CCA45CD818EC400A00748294 /* main.m */,
+				CCA45CDA18EC400A00748294 /* PooAlerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA45CF418EC400A00748294 /* PooAlerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA45CFA18EC400A00748294 /* PooAlerViewTests.m */,
+				CCA45CF518EC400A00748294 /* Supporting Files */,
+			);
+			path = PooAlerViewTests;
+			sourceTree = "<group>";
+		};
+		CCA45CF518EC400A00748294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA45CF618EC400A00748294 /* PooAlerViewTests-Info.plist */,
+				CCA45CF718EC400A00748294 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA45CC818EC400A00748294 /* PooAlerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA45CFE18EC400A00748294 /* Build configuration list for PBXNativeTarget "PooAlerView" */;
+			buildPhases = (
+				CCA45CC518EC400A00748294 /* Sources */,
+				CCA45CC618EC400A00748294 /* Frameworks */,
+				CCA45CC718EC400A00748294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PooAlerView;
+			productName = PooAlerView;
+			productReference = CCA45CC918EC400A00748294 /* PooAlerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA45CEC18EC400A00748294 /* PooAlerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA45D0118EC400A00748294 /* Build configuration list for PBXNativeTarget "PooAlerViewTests" */;
+			buildPhases = (
+				CCA45CE918EC400A00748294 /* Sources */,
+				CCA45CEA18EC400A00748294 /* Frameworks */,
+				CCA45CEB18EC400A00748294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA45CF318EC400A00748294 /* PBXTargetDependency */,
+			);
+			name = PooAlerViewTests;
+			productName = PooAlerViewTests;
+			productReference = CCA45CED18EC400A00748294 /* PooAlerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA45CC118EC400A00748294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Poo;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = crazypoo;
+				TargetAttributes = {
+					CCA45CEC18EC400A00748294 = {
+						TestTargetID = CCA45CC818EC400A00748294;
+					};
+				};
+			};
+			buildConfigurationList = CCA45CC418EC400A00748294 /* Build configuration list for PBXProject "PooAlerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA45CC018EC400A00748294;
+			productRefGroup = CCA45CCA18EC400A00748294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA45CC818EC400A00748294 /* PooAlerView */,
+				CCA45CEC18EC400A00748294 /* PooAlerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA45CC718EC400A00748294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA45CE318EC400A00748294 /* Main_iPad.storyboard in Resources */,
+				CCA45CE818EC400A00748294 /* Images.xcassets in Resources */,
+				CCA45CE018EC400A00748294 /* Main_iPhone.storyboard in Resources */,
+				CCA45CD718EC400A00748294 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA45CEB18EC400A00748294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA45CF918EC400A00748294 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA45CC518EC400A00748294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA45CD918EC400A00748294 /* main.m in Sources */,
+				CCA45CDD18EC400A00748294 /* PooAppDelegate.m in Sources */,
+				CCA45CE618EC400A00748294 /* PooViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA45CE918EC400A00748294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA45CFB18EC400A00748294 /* PooAlerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA45CF318EC400A00748294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA45CC818EC400A00748294 /* PooAlerView */;
+			targetProxy = CCA45CF218EC400A00748294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA45CD518EC400A00748294 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA45CD618EC400A00748294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCA45CDE18EC400A00748294 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA45CDF18EC400A00748294 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA45CE118EC400A00748294 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA45CE218EC400A00748294 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA45CF718EC400A00748294 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA45CF818EC400A00748294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA45CFC18EC400A00748294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA45CFD18EC400A00748294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA45CFF18EC400A00748294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PooAlerView/PooAlerView-Prefix.pch";
+				INFOPLIST_FILE = "PooAlerView/PooAlerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCA45D0018EC400A00748294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PooAlerView/PooAlerView-Prefix.pch";
+				INFOPLIST_FILE = "PooAlerView/PooAlerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCA45D0218EC400A00748294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PooAlerView.app/PooAlerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PooAlerView/PooAlerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PooAlerViewTests/PooAlerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCA45D0318EC400A00748294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PooAlerView.app/PooAlerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PooAlerView/PooAlerView-Prefix.pch";
+				INFOPLIST_FILE = "PooAlerViewTests/PooAlerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA45CC418EC400A00748294 /* Build configuration list for PBXProject "PooAlerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA45CFC18EC400A00748294 /* Debug */,
+				CCA45CFD18EC400A00748294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA45CFE18EC400A00748294 /* Build configuration list for PBXNativeTarget "PooAlerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA45CFF18EC400A00748294 /* Debug */,
+				CCA45D0018EC400A00748294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCA45D0118EC400A00748294 /* Build configuration list for PBXNativeTarget "PooAlerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA45D0218EC400A00748294 /* Debug */,
+				CCA45D0318EC400A00748294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA45CC118EC400A00748294 /* Project object */;
+}
